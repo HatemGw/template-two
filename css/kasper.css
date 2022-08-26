@@ -159,11 +159,14 @@ header nav {
 header nav>i {
     color: white;
     padding-right: 15px;
+    padding-left: 15px;
 
 }
 
+
 @media (min-width:771px) {
-    header nav>i {
+    header .container nav>i {
+        display: block;
         display: none;
     }
 }
@@ -182,8 +185,9 @@ header nav ul {
         flex-direction: column;
         position: absolute;
         top: 100%;
-        left: 0;
+        right: 0;
         background-color: #0000009e;
+
     }
 
     header nav ul li a {
@@ -1118,8 +1122,8 @@ textarea::placeholder {
 
 .social-contact .container .social-icons i {
     margin-top: 5px;
-    font-size: 25px;
-    margin-right: 10px;
+    font-size: 15px;
+    margin-riight: 20px;
 }
 
 .social-contact .container .rights {
