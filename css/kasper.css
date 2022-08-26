@@ -1116,6 +1116,12 @@ textarea::placeholder {
     -o-transform: translatex(-50%);
 }
 
+.social-contact .container .social-icons i {
+    margin-top: 5px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
 .social-contact .container .rights {
     margin-top: 90px;
 }
